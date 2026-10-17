@@ -1,0 +1,44 @@
+name: Weekly IPO Intelligence & Anchor Lock-In Dataset Update
+
+on:
+  schedule:
+    # Runs every Saturday at 20:30 UTC (02:00 IST Sunday)
+    - cron: '30 20 * * 6'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-dataset:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: |
+          pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Fetch latest IPOs and evaluate quality
+        run: |
+          python update.py
+
+      - name: Commit and push changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add output/
+          if git diff --staged --quiet; then
+            echo "No changes in IPO data."
+          else
+            git commit -m "chore(data): automated weekly IPO update [skip ci]"
+            git push
+          fi
