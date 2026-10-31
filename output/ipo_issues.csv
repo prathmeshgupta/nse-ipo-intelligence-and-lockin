@@ -1,4 +1,8 @@
 symbol,company_name,issue_start_date,issue_end_date,listing_date,price_band_low,price_band_high,issue_size_shares,qib_subscription_x,nii_subscription_x,retail_subscription_x,total_subscription_x,anchor_shares_allotted,anchor_lockin_30d_date,anchor_lockin_90d_date,status,source
+VPFL,Vedant Poly Fabs Limited,2026-11-02,2026-11-04,2026-11-08,88.0,94.0,6030000,0.0,0.0,0.0,0.0,1809000,2026-12-08,2027-02-06,Forthcoming,NSE_IPO_API
+HGSINDIALT,HGS (India) Limited,2026-10-30,2026-11-03,2026-11-07,0.0,0.0,2066400,1.53,0.0,0.0,1.53,619920,2026-12-07,2027-02-05,Active,NSE_IPO_API
+MAXENGS,Maxwell Engineering Solutions Limited,2026-10-30,2026-11-03,2026-11-07,0.0,0.0,2624000,4.17,0.0,0.0,4.17,787200,2026-12-07,2027-02-05,Active,NSE_IPO_API
+BCSSL,Bombay Coated and Special Steels Limited,2026-10-29,2026-11-02,2026-11-06,78.0,82.0,16533012,0.0,0.0,0.0,0.0,4959903,2026-12-06,2027-02-04,Active,NSE_IPO_API
 MKSONS,M. K. Sons Fine Jewels Limited,2026-10-28,2026-10-30,2026-11-03,153.0,162.0,17000000,0.0,0.0,0.0,0.0,5100000,2026-12-03,2027-02-01,Forthcoming,NSE_IPO_API
 SFCTECH,SFC Environmental Technologies Limited,2026-10-27,2026-10-29,2026-11-02,313.0,330.0,20475082,0.0,0.0,0.0,0.0,6142524,2026-12-02,2027-01-31,Forthcoming,NSE_IPO_API
 BLSPOLY,BLS Polymers Limited,2026-10-27,2026-10-29,2026-11-02,142.0,150.0,17000000,0.0,0.0,0.0,0.0,5100000,2026-12-02,2027-01-31,Forthcoming,NSE_IPO_API
