@@ -1,4 +1,7 @@
 symbol,company_name,issue_start_date,issue_end_date,listing_date,price_band_low,price_band_high,issue_size_shares,qib_subscription_x,nii_subscription_x,retail_subscription_x,total_subscription_x,anchor_shares_allotted,anchor_lockin_30d_date,anchor_lockin_90d_date,status,source
+SHREESIDHI,Shree Siddhivinayak Greentech Industries Limited,2026-11-25,2026-11-27,2026-12-01,130.0,142.0,6596000,0.0,0.0,0.0,0.0,1978800,2026-12-31,2027-03-01,Forthcoming,NSE_IPO_API
+MAHACOAL,Mahanadi Coalfields Limited,2026-11-19,2026-11-23,2026-11-27,129.0,136.0,493068045,0.11,0.0,0.0,0.11,147920413,2026-12-27,2027-02-25,Active,NSE_IPO_API
+WATRANA,Watrana Rentals Limited,2026-11-19,2026-11-23,2026-11-27,232.0,245.0,3516000,11.1,0.0,0.0,11.1,1054800,2026-12-27,2027-02-25,Active,NSE_IPO_API
 VPFL,Vedant Poly Fabs Limited,2026-11-02,2026-11-04,2026-11-08,88.0,94.0,6030000,0.0,0.0,0.0,0.0,1809000,2026-12-08,2027-02-06,Forthcoming,NSE_IPO_API
 HGSINDIALT,HGS (India) Limited,2026-10-30,2026-11-03,2026-11-07,0.0,0.0,2066400,1.53,0.0,0.0,1.53,619920,2026-12-07,2027-02-05,Active,NSE_IPO_API
 MAXENGS,Maxwell Engineering Solutions Limited,2026-10-30,2026-11-03,2026-11-07,0.0,0.0,2624000,4.17,0.0,0.0,4.17,787200,2026-12-07,2027-02-05,Active,NSE_IPO_API
